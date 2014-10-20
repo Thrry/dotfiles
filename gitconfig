@@ -14,7 +14,7 @@
   remote = yellow
 
 [core]
-  editor = nano
+	editor = 'subl' -n -w
   pager = less -FRSX
   mergeoptions = --no-edit
 
@@ -47,4 +47,4 @@
   autocorrect = 1
 
 [push]
-	default = simple
+	default = matching
